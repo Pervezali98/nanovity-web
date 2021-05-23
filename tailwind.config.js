@@ -6,10 +6,18 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                poppins: ['Poppins', ],
+                gilroy: ['Gilroy', ],
+            },
+        },
     },
     variants: {
-        extend: {},
+        extend: {
+            margin: ['last', ],
+        },
+        animation: ['responsive', 'motion-safe', 'motion-reduce']
     },
     plugins: [],
 }
