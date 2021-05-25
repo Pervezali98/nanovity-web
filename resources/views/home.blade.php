@@ -25,7 +25,7 @@
     <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">What We Do</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Our Best Services Whatever we do, our ultimate purpose is to fulfill the requirements of our clients as best as possible. We provide our services with one thing in mind - they can be nothing short of being perfect and have to exceed all expectations..</p>
+            {{-- <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s"></p> --}}
             <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-700 inline-flex"></div>
             </div>
