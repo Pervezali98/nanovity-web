@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>nanovity | @yield('title')</title>
+        <title>Nanovity | @yield('title')</title>
 
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -53,7 +53,7 @@
         @endif
         </div> --}}
         <!-- header start -->
-        <header id="home" class="text-gray-600 body-font hero-bg fixed left-0 right-0 z-50">
+        <header id="home" class="text-gray-600 body-font hero-bg">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a class="flex title-font font-medium items-center mb-4 md:mb-0">
                     <span class="text-4xl font-gilroy">nanovity</span>
@@ -84,9 +84,9 @@
                         <span class="text-3xl font-gilroy">nanovity</span>
                     </a>
                     <address class="text-sm">
-                        4th Floor, Momotaz Tower,<br>
-                        Arkan Road, Bahaddarhat,<br>
-                        Chattogram, Bangladesh <br>
+                        350, Momotaz Tower, 4th Floor,<br>
+                        Arkan Road, 4212, Bahaddarhat,<br>
+                        Chattogram, Bangladesh. <br>
                         <br>
                         <a href="mailto:info@nanovity.net" class="text-indigo-700">info@nanovity.net</a><br>
                         <br>
@@ -108,29 +108,28 @@
                     </div>
 
                     <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 uppercase">OTHER RESOURCES</h2>
                         <nav class="list-none mb-10 last:mb-0">
                             <li>
-                                <a class="text-gray-600 hover:text-gray-700">First Link</a>
+                                <a href="" class="text-gray-600 hover:text-gray-700">FAQ</a>
                             </li>
                             <li>
-                                <a class="text-gray-600 hover:text-gray-700">Second Link</a>
+                                <a href="" class="text-gray-600 hover:text-gray-700">MIT License</a>
                             </li>
                             <li>
-                                <a class="text-gray-600 hover:text-gray-700">Third Link</a>
+                                <a href="" class="text-gray-600 hover:text-gray-700">Terms & Conditions</a>
                             </li>
                             <li>
-                                <a class="text-gray-600 hover:text-gray-700">Fourth Link</a>
+                                <a href="" class="text-gray-600 hover:text-gray-700">Privacy Policy</a>
                             </li>
                         </nav>
                     </div>
-
-
                 </div>
             </div>
             <div class="bg-gray-100">
                 <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                    <p class="text-gray-500 text-sm text-center sm:text-left">&copy;
+                    <p class="text-gray-500 text-sm text-center sm:text-left">
+                        Copyright &copy;
                         <span>
                             <script>
                                 document.write(new Date().getFullYear())
