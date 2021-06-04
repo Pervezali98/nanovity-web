@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Visitor\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,21 +15,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('visitor.home');
 })->name('home');
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
-
-Route::get('/services', function () {
-    return view('services');
+Route::get('services', function () {
+    return view('visitor.services');
 })->name('services');
 
-Route::get('/products', function () {
-    return view('products');
+Route::get('products', function () {
+    return view('visitor.products');
 })->name('products');
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('about', function () {
+    return view('visitor.about');
 })->name('about');
+
+// contact form routes
+Route::get('contact', [ContactFormController::class, 'create'])->name('contact.create');
+Route::post('contact', [ContactFormController::class, 'store'])->name('contact.store');

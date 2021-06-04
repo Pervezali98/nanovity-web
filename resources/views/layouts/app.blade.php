@@ -61,7 +61,7 @@
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a class="mr-5 hover:text-gray-900" href="{{ route('home') }}">Home</a>
                     <a class="mr-5 hover:text-gray-900" href="{{ route('services') }}">Services</a>
-                    <a class="mr-5 hover:text-gray-900" href="{{ route('contact') }}">Contact</a>
+                    <a class="mr-5 hover:text-gray-900" href="{{ route('contact.create') }}">Contact</a>
                     <a class="mr-5 hover:text-gray-900" href="{{ route('about') }}">About</a>
                 </nav>
             </div>
@@ -78,7 +78,7 @@
         <!-- footer start -->
         <footer id="footer" class="text-gray-600 body-font">
             <hr>
-            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col justify-around">
                 <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 mb-2">
                         <span class="text-3xl font-gilroy">nanovity</span>
@@ -90,44 +90,43 @@
                         <br>
                         <a href="mailto:info@nanovity.net" class="text-indigo-700">info@nanovity.net</a><br>
                         <br>
-                        <a  href="tel:+8801730794514" class="text-indigo-700">(+880) 173 079 4514</a> <br>
-                        <a  href="tel:+8801834255112" class="text-indigo-700">(+880) 183 425 5112</a> <br>
+                        <a href="tel:+8801730794514" class="text-indigo-700">(+880) 173 079 4514</a> <br>
+                        <a href="tel:+8801834255112" class="text-indigo-700">(+880) 183 425 5112</a> <br>
                     </address>
                 </div>
-                <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
 
-                    <div class="lg:w-1/2 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest mb-3">Stay tuned!</h2>
-                        <p class="leading-5 text-sm text-gray-600">Sign up here to get the latest news, updates and special offers delivered to your inbox.</p>
-                        <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start mb-10 mt-1">
-                            <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-                                <input type="text" id="footer-field" name="footer-field" placeholder="Enter your email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                            </div>
-                            <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Join!</button>
+                <div class="text-center lg:text-left mt-10 lg:mt-0">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest mb-2">Stay tuned!</h2>
+                    <p class="leading-5 text-sm text-gray-600">Sign up here to get the latest news, updates and special offers delivered to your inbox.</p>
+                    <div class="flex mb-10 mt-2 justify-center lg:justify-start">
+                        <div class="">
+                            <input type="text" id="footer-field" name="footer-field" placeholder="Enter your email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
-                    </div>
-
-                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 uppercase">OTHER RESOURCES</h2>
-                        <nav class="list-none mb-10 last:mb-0">
-                            <li>
-                                <a href="" class="text-gray-600 hover:text-gray-700">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="" class="text-gray-600 hover:text-gray-700">MIT License</a>
-                            </li>
-                            <li>
-                                <a href="" class="text-gray-600 hover:text-gray-700">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a href="" class="text-gray-600 hover:text-gray-700">Privacy Policy</a>
-                            </li>
-                        </nav>
+                        <button class="ml-3 text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Join!</button>
                     </div>
                 </div>
+
+                <div class="text-center lg:text-left">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 uppercase">OTHER RESOURCES</h2>
+                    <nav class="list-none mb-10 last:mb-0">
+                        <li>
+                            <a href="" class="text-gray-600 hover:text-gray-700">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-gray-600 hover:text-gray-700">MIT License</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-gray-600 hover:text-gray-700">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-gray-600 hover:text-gray-700">Privacy Policy</a>
+                        </li>
+                    </nav>
+                </div>
             </div>
+            
             <div class="bg-gray-100">
-                <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <div class="container mx-auto py-4 px-5 lg:px-24 flex flex-wrap flex-col sm:flex-row">
                     <p class="text-gray-500 text-sm text-center sm:text-left">
                         Copyright &copy;
                         <span>

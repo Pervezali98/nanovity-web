@@ -10,10 +10,10 @@
             <img class="object-cover object-center rounded animate-pulse" alt="hero" width="720px" height="600px" src="{{ asset('images/coding_1.svg') }}">
         </div>
         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font text-3xl sm:text-5xl mb-4 font-medium">Our Work Shows Our Ability.</h1>
+            <h1 class="title-font text-3xl lg:text-5xl mb-4 font-medium">Our Work Shows Our Ability.</h1>
             <p class="mb-8 leading-relaxed">We provide excellent web development services to create web applications. Whether you are a newbie or an established online merchant, we have the right solution for your business needs at affordable prices.</p>
             <div class="flex justify-center">
-                <button class="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
+                <button class="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Explore Us</button>
             </div>
         </div>
     </div>
@@ -24,10 +24,9 @@
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">What We Do</h1>
-            {{-- <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s"></p> --}}
-            <div class="flex mt-6 justify-center">
-                <div class="w-16 h-1 rounded-full bg-indigo-700 inline-flex"></div>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 uppercase">What We Do</h1>
+            <div class="flex mt-2 justify-center">
+                <div class="w-36 h-1 rounded-full bg-indigo-700 inline-flex"></div>
             </div>
         </div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -82,9 +81,9 @@
 <section id="services" class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">FEATURED Products</h1>
-            <div class="flex mt-6 justify-center">
-                <div class="w-16 h-1 rounded-full bg-indigo-700 inline-flex"></div>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 uppercase">FEATURED Products</h1>
+            <div class="flex mt-2 justify-center">
+                <div class="w-64 h-1 rounded-full bg-indigo-700 inline-flex"></div>
             </div>
         </div>
         <div class="flex flex-wrap -m-4">
