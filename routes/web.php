@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Visitor\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
@@ -36,8 +37,10 @@ Route::post('contact', [ContactFormController::class, 'store'])->name('contact.s
 
 
 // Admin
-Route::prefix('admin')
-    ->middleware('auth')
-    ->group(function () {
-        Route::view('dashboard', 'admin.dashboard');
+Route::middleware('auth')->prefix('admin')->as('admin.')->group(function () {
+    Route::view('dashboard', 'admin.dashboard')->name('dashboard');
+
+    // Application settings
+    Route::get('settings', [SettingController::class, 'getSettings'])->name('settings.get');
+    Route::patch('settings', [SettingController::class, 'setSettings'])->name('settings.set');
 });
