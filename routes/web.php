@@ -33,3 +33,11 @@ Route::get('about', function () {
 // contact form routes
 Route::get('contact', [ContactFormController::class, 'create'])->name('contact.create');
 Route::post('contact', [ContactFormController::class, 'store'])->name('contact.store');
+
+
+// Admin
+Route::prefix('admin')
+    ->middleware('auth')
+    ->group(function () {
+        Route::view('dashboard', 'admin.dashboard');
+});
