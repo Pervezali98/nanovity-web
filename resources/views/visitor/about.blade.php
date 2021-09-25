@@ -17,9 +17,75 @@
 </section>
 <!-- hero section end -->
 
+{{-- team section start --}}
+<section class="font-poppins">
+    <div class="container px-5 py-24 mx-auto">
+        <div class="text-center mb-20">
+            <div class="text-center mb-5">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 uppercase">Our Team</h1>
+                <div class="flex mt-2 justify-center">
+                    <div class="w-24 h-1 rounded-full bg-indigo-700 inline-flex"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="inline-flex items-center justify-center rounded-full mb-5 flex-shrink-0">
+                    <img width="220px" class="rounded-full" src="https://via.placeholder.com/150" alt="Person Image">
+                </div>
+                <div class="flex-grow">
+                    <h2 class="text-indigo-700 text-xl title-font font-semibold">Person Name</h2>
+                    <h3 class="mb-2 text-base text-gray-500">Title</h3>
+                    <p class="leading-relaxed text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas expedita tempore aut labore debitis optio quia quo facilis ducimus.</p>
+                    <a class="mt-3 text-indigo-700 inline-flex items-center" href="/">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="inline-flex items-center justify-center rounded-full mb-5 flex-shrink-0">
+                    <img width="220px" class="rounded-full" src="https://via.placeholder.com/150" alt="Person Image">
+                </div>
+                <div class="flex-grow">
+                    <h2 class="text-indigo-700 text-xl title-font font-semibold">Person Name</h2>
+                    <h3 class="mb-2 text-base text-gray-500">Title</h3>
+                    <p class="leading-relaxed text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas expedita tempore aut labore debitis optio quia quo facilis ducimus.</p>
+                    <a class="mt-3 text-indigo-700 inline-flex items-center" href="/">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="inline-flex items-center justify-center rounded-full mb-5 flex-shrink-0">
+                    <img width="220px" class="rounded-full" src="https://via.placeholder.com/150" alt="Person Image">
+                </div>
+                <div class="flex-grow">
+                    <h2 class="text-indigo-700 text-xl title-font font-semibold">Person Name</h2>
+                    <h3 class="mb-2 text-base text-gray-500">Title</h3>
+                    <p class="leading-relaxed text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas expedita tempore aut labore debitis optio quia quo facilis ducimus.</p>
+                    <a class="mt-3 text-indigo-700 inline-flex items-center" href="/">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{-- team section end --}}
+
 {{-- about section start --}}
 <section class="text-gray-600 body-font">
-    <div class="container  px-5 lg:px-60 py-16 mx-auto">
+    <div class="container  px-5 py-16 mx-auto">
         <div class="mb-10">
             <div class="text-center mb-5">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 uppercase">About Us</h1>
@@ -42,4 +108,5 @@
     </div>
 </section>
 {{-- about section end --}}
+
 @endsection
